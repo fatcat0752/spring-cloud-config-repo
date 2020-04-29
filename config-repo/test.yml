@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fatcat0752/spring-cloud-config-repo/
+          search-paths: config-repo
+          username: fattiger0752
+          password: zAb45266993
